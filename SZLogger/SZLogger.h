@@ -7,9 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <CoreFoundation/CoreFoundation.h>
 
 @interface SZLogger : NSObject
 
 + (void)printOut:(id)objectToPrint;
++ (void)printOutRect:(CGRect)objectToPrint;
++ (void)printOutSize:(CGSize)objectToPrint;
 
 @end

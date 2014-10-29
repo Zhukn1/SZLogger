@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SZLogger"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "A simple wrapper for NSLog to make things simpler. At least for me."
 
   s.description  = <<-DESC
@@ -53,8 +53,8 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "Stas Zhukovskiy" => "stzhuk@gmail.com" }
-  # Or just: s.author    = "Stas Zhukovskiy"
+  # s.author             = { "Stas Zhukovskiy" => "stzhuk@gmail.com" }
+  s.author    = "Stas Zhukovskiy"
   # s.authors            = { "Stas Zhukovskiy" => "stzhuk@gmail.com" }
   # s.social_media_url   = "http://twitter.com/Stas Zhukovskiy"
 
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/Zhukn1/SZLogger.git", :tag => "0.0.2" }
+  s.source       = { :git => "https://github.com/Zhukn1/SZLogger.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes/*.{h,m}"
+  s.source_files  = "SZLogger/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
