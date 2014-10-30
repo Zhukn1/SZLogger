@@ -22,6 +22,7 @@
     }
 }
 
+
 + (void)printOutRect:(CGRect)objectToPrint {
     NSLog(@"%@ [CGRect] %@", POD_NAME, NSStringFromCGRect(objectToPrint));
 }
