@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SZLogger"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "A simple wrapper for NSLog to make things simpler. At least for me."
 
   s.description  = <<-DESC

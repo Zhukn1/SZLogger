@@ -14,5 +14,6 @@
 + (void)printOut:(id)objectToPrint;
 + (void)printOutRect:(CGRect)objectToPrint;
 + (void)printOutSize:(CGSize)objectToPrint;
++ (void)printOutPoint:(CGPoint)objectToPrint;
 
 @end

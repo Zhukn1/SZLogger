@@ -30,4 +30,8 @@
     NSLog(@"%@ [CGSize] %@", POD_NAME, NSStringFromCGSize(objectToPrint));
 }
 
++ (void)printOutPoint:(CGPoint)objectToPrint {
+    NSLog(@"%@ [CGPoint] %@", POD_NAME, NSStringFromCGPoint(objectToPrint));
+}
+
 @end
