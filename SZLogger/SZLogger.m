@@ -34,4 +34,8 @@
     NSLog(@"%@ [CGPoint] %@", POD_NAME, NSStringFromCGPoint(objectToPrint));
 }
 
++ (void)printOutOffset:(UIOffset)objectToPrint {
+    NSLog(@"%@ [UIOffset] %@", POD_NAME, NSStringFromUIOffset(objectToPrint));
+}
+
 @end
